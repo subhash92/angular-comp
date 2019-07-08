@@ -1,0 +1,25 @@
+<div class="container-fluid p-0">
+  <app-header></app-header>
+</div>
+
+<div class="container">
+  <div class="row d-flex s-app">
+
+    <!-- <h1 class="s-app__heading">
+      Welcome to {{ title }}!
+    </h1> -->
+    <div class="col-md-12 col-sm-12 s-app__heading">
+
+    </div>
+    <div class="col-md-6 col-sm-12">
+      <app-recipes></app-recipes>
+      <app-recipes-list></app-recipes-list>
+      <app-recipes-detail></app-recipes-detail>
+    </div>
+    <div class="col-md-6 col-sm-12">
+      <app-shopping-list></app-shopping-list>
+      <app-shopping-edit></app-shopping-edit>
+    </div>
+  </div>
+</div>
+<router-outlet></router-outlet>

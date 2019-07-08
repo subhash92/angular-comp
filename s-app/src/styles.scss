@@ -1,0 +1,17 @@
+/* You can add global styles to this file, and also import other style files */
+.s-app {
+    margin-top: 2rem;
+    display: flex;
+    &__heading {
+        width: 100%;
+        justify-content: center;
+        display: flex;
+    }
+ 
+}
+.navbar-expand-lg .navbar-collapse {
+    display: flex!important;
+    flex-basis: auto;
+    float: right;
+    justify-content: flex-end;
+}
